@@ -53,6 +53,10 @@ Calling example for whole genome prediction (needs a user provided features tabl
 ./predict -n example2 -d myFeatures.csv -t hg38 -m models/deepRloop_GC_RLFS_DNase_RNA_K4me3_K9me3_K36_me1/model.RData
 ```
 
+## Installation
+
+There is no need for specific installation of virtuRloops, simply make sure that the following requirements and R libraries are installed in your system.
+
 ## Requirements
 
 - [bedtools v2.26.0](https://bedtools.readthedocs.io/en/latest/)
